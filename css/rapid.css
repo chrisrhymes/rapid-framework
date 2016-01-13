@@ -1,0 +1,42 @@
+/*
+* Written by Chris Rhymes 13th Jan 2016
+* 
+*/
+
+body {
+  box-size: border-box;
+  background: #971427;
+  font-family: arial, sans-serif;
+  font-size: 100%;
+  line-height: 2em;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;
+  padding: 1em 0;
+}
+
+.section {
+  padding: 1em;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+
+}
+
+.header {
+  width: 100%;
+  color: #ffffff;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Bitter', serif;
+  line-height: 1.5em;
+}
+
+.large-first::first-letter {
+  font-size: 2em;
+}
